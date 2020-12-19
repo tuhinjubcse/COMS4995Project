@@ -80,6 +80,7 @@ To finetune
               cd vua_detection_ml
               cd bert
               sh run.bash
+              Alternatively download the model https://drive.google.com/file/d/1RmITw1LghnfjSXWPJ6NWGJXwGzgtdMR8/view?usp=sharing in this directory
               
 To create parallel data using Commonsense Symbolism
 
