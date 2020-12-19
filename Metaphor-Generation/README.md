@@ -74,7 +74,14 @@ Please put the poetry corpus file `gutenberg-poetry-v001.ndjson` into path `data
 
 In the code `preprocess.py`, `stanfordcorenlp` is needed. Please download http://nlp.stanford.edu/software/stanford-corenlp-full-2018-10-05.zip and unzip to `data/corenlp`.
 
-We would require a BERT Fine-tuned model for metaphor detection first to identify naturally occuring me
+We would require a BERT Fine-tuned model for metaphor detection first to identify naturally occuring metaphors
+To finetune 
+      
+              cd vua_detection_ml
+              cd bert
+              sh run.bash
+              
+To create parallel data using Commonsense Symbolism
 
 ```bash
 cd data/poem
