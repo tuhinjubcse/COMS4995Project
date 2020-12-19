@@ -1,3 +1,3 @@
 # COMS4995Project
 
-cd Metaphor-Creation
+cd Metaphor-Generation
