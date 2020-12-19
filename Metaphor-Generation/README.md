@@ -74,6 +74,8 @@ Please put the poetry corpus file `gutenberg-poetry-v001.ndjson` into path `data
 
 In the code `preprocess.py`, `stanfordcorenlp` is needed. Please download http://nlp.stanford.edu/software/stanford-corenlp-full-2018-10-05.zip and unzip to `data/corenlp`.
 
+We would require a BERT Fine-tuned model for metaphor detection first to identify naturally occuring me
+
 ```bash
 cd data/poem
 python preprocess.py
@@ -82,6 +84,7 @@ python poem.py
 ```
 
 This creates poem_0.95_3.json
+You can download it from here https://drive.google.com/file/d/10p3gh5JmDd_Vi2S3w1za_pmhtD4jjBjM/view?usp=sharing
 createpaireddata.py takes this file can create literal metaphorical pairs
 
 
