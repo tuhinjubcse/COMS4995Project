@@ -9,9 +9,9 @@ export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/nas/home/tuhinc/miniconda3/lib/
 
 
 #INSTALL COMET
+Code used from https://github.com/atcbosselut/comet-commonsense with modifications
 
 
-Clone this repo.
 
   - install nltk
       
