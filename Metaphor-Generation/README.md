@@ -4,14 +4,16 @@ conda activate metaphor
 
 #point your LD_LIBRARY_PATH to your miniconda or anaconda library
 
-export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/nas/home/tuhinc/miniconda3/lib/
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/nas/home/tuhinc/miniconda3/lib/      (Use your own)
+
+
 
 
 
 #INSTALL COMET
+Code used from https://github.com/atcbosselut/comet-commonsense with modifications
 
 
-Clone this repo.
 
   - install nltk
       
@@ -35,6 +37,8 @@ Clone this repo.
       python -m spacy download en
       pip install tensorboardX
       pip install tqdm
+      pip install requests
+      pip install regex
       pip install pandas
       pip install ipython
       pip install inflect
@@ -80,6 +84,7 @@ To finetune
               cd vua_detection_ml
               cd bert
               sh run.bash
+Alternatively download the model https://drive.google.com/file/d/1RmITw1LghnfjSXWPJ6NWGJXwGzgtdMR8/view?usp=sharing in this directory
               
 To create parallel data using Commonsense Symbolism
 
