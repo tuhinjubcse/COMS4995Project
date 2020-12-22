@@ -100,6 +100,14 @@ You can download it from here https://drive.google.com/file/d/10p3gh5JmDd_Vi2S3w
 createpaireddata.py takes this file can create literal metaphorical pairs
 
 
+To train the metaphor generation model you can finetune BART. The steps are as follows
+                            ```
+                            cd fairseq
+                            sh script2.sh
+                            ```
+It creates a checkpoint-metaphor folder. Alternatively you can download from the drive link and place inside fairseq
+
+https://drive.google.com/drive/folders/1P-OxMqCX1oD6jdVULQDMrpEeQjpOK-w2?usp=sharing
 Email me at tc2896@columbia.edu for any problems/doubts. Further you can raise issues on github, or suggest improvements.
 
 
