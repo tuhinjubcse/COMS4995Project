@@ -114,6 +114,19 @@ It creates a checkpoint-metaphor folder. Alternatively you can download from the
 https://drive.google.com/drive/folders/1P-OxMqCX1oD6jdVULQDMrpEeQjpOK-w2?usp=sharing
 
 
+To train the discriminator you can finetune roberta-large. The steps are as follows
+
+
+                                            
+                                            cd fairseq
+                                            sh roberta_train.sh
+                                        
+It creates a metaphor-roberta folder. 
+To run on literal input , to generate metaphors
+                                            
+                                            ```
+                                            python inference.py
+                                            ```
 
 
 
