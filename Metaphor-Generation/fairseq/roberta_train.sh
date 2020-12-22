@@ -5,7 +5,7 @@ NUM_CLASSES=2
 MAX_SENTENCES=128        # Batch size.
 ROBERTA_PATH=/lfs1/tuhin/fairseq/roberta.large/model.pt
 
-python train.py metaCoLA-bin/ \
+python train.py metaphor-bin/ \
     --restore-file $ROBERTA_PATH \
     --max-positions 512 \
     --max-sentences $MAX_SENTENCES \
@@ -23,7 +23,7 @@ python train.py metaCoLA-bin/ \
     --lr-scheduler fixed --lr $LR \
     --memory-efficient-fp16 --fp16-init-scale 4 --threshold-loss-scale 1 --fp16-scale-window 128 \
     --max-epoch 10 \
-    --save-dir "metaCoLA-roberta" \
+    --save-dir "metaphor-roberta" \
     --update-freq 2 \
     --ddp-backend=no_c10d  \
     --truncate-sequence \
