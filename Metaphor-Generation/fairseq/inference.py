@@ -12,8 +12,8 @@ os.environ['CUDA_VISIBLE_DEVICES']="0"
 
 
 parser = argparse.ArgumentParser()
-parser.add_argument('--infile', type=str, default='./metaphor.source', help='input file')
-parser.add_argument('--outfile', type=str, default='./metaphor.hypo', help='output file')
+parser.add_argument('--infile', type=str, default='../outputs/literal.txt', help='input file')
+parser.add_argument('--outfile', type=str, default='../outputs/metaphor.hypo', help='output file')
 parser.add_argument('--apply_disc', action='store_true', help='whether to use discriminators to rescore')
 parser.add_argument('--scorers', type=str, default='./WP_scorers.tsv', help='tsv with discriminator info')
 parser.add_argument('--batch_size', type=int, default=1)
