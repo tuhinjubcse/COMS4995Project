@@ -124,9 +124,9 @@ To train the discriminator you can finetune roberta-large. The steps are as foll
 It creates a metaphor-roberta folder. 
 To run on literal input , to generate metaphors
                                             
-                                            ```
+                                            
                                             python inference.py
-                                            ```
+                                            
 
 
 
