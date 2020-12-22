@@ -81,7 +81,7 @@ In the code `preprocess.py`, `stanfordcorenlp` is needed. Please download http:/
 We would require a BERT Fine-tuned model for metaphor detection first to identify naturally occuring metaphors
 To finetune 
       
-              cd vua_detection_ml
+              cd vua_detection_mlm
               cd bert
               sh run.bash
 Alternatively download the model https://drive.google.com/file/d/1RmITw1LghnfjSXWPJ6NWGJXwGzgtdMR8/view?usp=sharing in this directory
