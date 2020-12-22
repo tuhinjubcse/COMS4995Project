@@ -112,6 +112,14 @@ To train the metaphor generation model you can finetune BART. The steps are as f
 It creates a checkpoint-metaphor folder. Alternatively you can download from the drive link and place inside fairseq
 
 https://drive.google.com/drive/folders/1P-OxMqCX1oD6jdVULQDMrpEeQjpOK-w2?usp=sharing
+
+
+
+
+
+
+
+
 Email me at tc2896@columbia.edu for any problems/doubts. Further you can raise issues on github, or suggest improvements.
 
 
